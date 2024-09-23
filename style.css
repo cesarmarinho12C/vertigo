@@ -75,3 +75,50 @@ main{
     font-weight: 700;
     color: var(--white);
 }
+
+.login > p {
+    color: var(--grey-600);
+    font-size: 1rem;
+}
+
+.login > p a {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.login button:hover{
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.bg-desktop{
+    display:none;
+}
+
+@media(min-width: 1000px){
+
+    body{
+        display: flex;
+        height: 100vh;
+    }
+    
+    header{
+        background: none;
+        justify-content: flex-start;
+        margin: 2.5rem 7rem 7rem;
+    
+        height: fit-content;
+      
+       }
+    
+       header img{
+        width: 10rem;
+       }
+    
+       main {
+        margin-inline: 7rem;
+        max-width: 24rem;
+        padding: 0;
+       }
+    
